@@ -9,7 +9,7 @@ import json
 class ItcastPipeline(object):
 
     def __init__(self):
-        self.f = open('itcast_pipline.json','w')
+        self.f = open('itcast_pipline.json','wb+')
         pass
 
     def process_item(self, item, spider):
